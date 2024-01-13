@@ -16,7 +16,9 @@ classifier = pickle.load(open(file_path, 'rb'))
 
 #page configuration
 st.set_page_config(page_title = 'Customer Classification Web App', layout='centered')
+
 st.title('Customer Classification Web App')
+
 
 # customer segmentation function
 def segment_customers(input_data):
@@ -55,18 +57,22 @@ def main():
     
     st.success(result)
     
+
+
     
-html_str1 = """# <p style="background-color:#682F2F;font-family:newtimeroman;color:#FFF9ED;font-size:150%;text-align:center;border-radius:10px 10px;">Customer Segmentation</p>
+html_str1 = """ <p style="background-color:#682F2F;font-family:newtimeroman;color:#FFF9ED;font-size:150%;text-align:center;border-radius:10px 10px;">Customer Segmentation</p>
 
 <img src="https://github.com/KarnikaKapoor/Files/blob/main/Colorful%20Handwritten%20About%20Me%20Blank%20Education%20Presentation.gif?raw=true"  alt="Centered Image" style=" max-width: 100%;
       max-height: 100%;">
-
-In this project, we will performed an unsupervised clustering of data on the customer's records from a groceries firm's database.
-Customer segmentation is the practice of separating customers into groups that reflect similarities among customers in each cluster.
-I will divide customers into segments to optimize the significance of each customer to the business.
-To modify products according to distinct needs and behaviours of the customers.
-It also helps the business to cater to the concerns of different types of customers.
 """    
+html_str3 = """<p style="font-weight: bold;">Study prepared and conducted by Daoudi Amir Salah Eddine and Tbahriti Mohammed.</p>"""
+
+        
+
+html_str4 = """<p>In this project, we performed an unsupervised clustering of data on the customer's records from a groceries firm's database. Customer segmentation is the practice of separating customers into groups that reflect similarities among customers in each cluster.</p>
+<p>We will divide customers into segments to optimize the significance of each customer to the business. This allows us to modify products according to the distinct needs and behaviors of the customers, ultimately helping the business cater to the concerns of different types of customers.</p>"""
+
+
 html_str2 =  """ <h3>The Study Outcome</h3>
 
     <section>
@@ -130,10 +136,12 @@ html_str2 =  """ <h3>The Study Outcome</h3>
     </section>"""
 
 st.markdown(html_str1, unsafe_allow_html= True)    
+st.markdown(html_str3, unsafe_allow_html= True)   
+st.markdown(html_str4, unsafe_allow_html= True)   
 st.markdown(html_str2, unsafe_allow_html= True)    
+
 
 
 if __name__ == '__main__':
         main ()
         
-# I have kept it very simple, but i can beautify the web app by using html
