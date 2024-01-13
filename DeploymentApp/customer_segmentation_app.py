@@ -5,9 +5,13 @@ import pickle
 import streamlit as st
 import pandas as pd
 import numpy as np
-
+import os
 #load the model
-classifier = pickle.load(open('classifier.pkl','rb'))
+# Get the absolute path to the 'classifier.pkl' file
+file_path = os.path.join(os.path.dirname(__file__), 'classifier.pkl')
+
+# Load the classifier
+classifier = pickle.load(open(file_path, 'rb'))
 
 
 #page configuration
