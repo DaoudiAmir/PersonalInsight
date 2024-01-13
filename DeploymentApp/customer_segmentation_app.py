@@ -61,7 +61,7 @@ html_str1 = """# <p style="background-color:#682F2F;font-family:newtimeroman;col
 <img src="https://github.com/KarnikaKapoor/Files/blob/main/Colorful%20Handwritten%20About%20Me%20Blank%20Education%20Presentation.gif?raw=true"  alt="Centered Image" style=" max-width: 100%;
       max-height: 100%;">
 
-In this project, I will be performing an unsupervised clustering of data on the customer's records from a groceries firm's database.
+In this project, we will performed an unsupervised clustering of data on the customer's records from a groceries firm's database.
 Customer segmentation is the practice of separating customers into groups that reflect similarities among customers in each cluster.
 I will divide customers into segments to optimize the significance of each customer to the business.
 To modify products according to distinct needs and behaviours of the customers.
