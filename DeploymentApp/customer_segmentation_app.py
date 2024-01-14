@@ -134,16 +134,15 @@ html_str2 =  """ <h3>The Study Outcome</h3>
             <li>Are parents.</li>
         </ul>
     </section>
+    <img src="https://i.imgur.com/ga3acNx.png"  alt="Centered Image" style=" max-width: 100%;
+      max-height: 100%;">
     """
-html_str6 = """<img src="https://private-user-images.githubusercontent.com/101358496/296541477-7753e7fe-f813-4f20-91e1-9a5b463e5300.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDUyMjU3MzYsIm5iZiI6MTcwNTIyNTQzNiwicGF0aCI6Ii8xMDEzNTg0OTYvMjk2NTQxNDc3LTc3NTNlN2ZlLWY4MTMtNGYyMC05MWUxLTlhNWI0NjNlNTMwMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExNFQwOTQzNTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NzViNWY1YmEyMzhjMWVmMGE3ZjljYTU0NjU2NWMxMGNmYmQ4NDgzMTkxMjUxYTFiYThlNjRkZGRhZGNhNmIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.90I6CePESYZZrcegY1lB64MTBFGcTsmS0bdN8adSISI"  alt="Centered Image" style=" max-width: 100%;
-      max-height: 100%;">"""    
 html_str5 = """<h1> Making new Predictions using the Model : </h1>"""
 
 st.markdown(html_str1, unsafe_allow_html= True)    
 st.markdown(html_str3, unsafe_allow_html= True)   
 st.markdown(html_str4, unsafe_allow_html= True)   
-st.markdown(html_str2, unsafe_allow_html= True) 
-st.markdown(html_str6, unsafe_allow_html= True)   
+st.markdown(html_str2, unsafe_allow_html= True)  
 st.markdown(html_str5, unsafe_allow_html= True)    
 
 
