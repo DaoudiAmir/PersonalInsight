@@ -134,12 +134,14 @@ html_str2 =  """ <h3>The Study Outcome</h3>
             <li>Are parents.</li>
         </ul>
     </section>"""
+    
+html_str5 = """<h1> Making new Predictions using the Model : </h1>"""
 
 st.markdown(html_str1, unsafe_allow_html= True)    
 st.markdown(html_str3, unsafe_allow_html= True)   
 st.markdown(html_str4, unsafe_allow_html= True)   
 st.markdown(html_str2, unsafe_allow_html= True)    
-
+st.markdown(html_str5, unsafe_allow_html= True)    
 
 
 if __name__ == '__main__':
